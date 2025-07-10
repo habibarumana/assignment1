@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+body, html {
+  height: 100%;
+}
+
+/* Hero background */
+.hero-bg {
+  background-image: url('../Assets/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 698px; 
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+
+/* Top navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+/* Logo style */
+nav a {
+    text-decoration: none;
+}
+nav a h1 {
+    text-decoration: none;
+    color: #4e47ff;
+    font-family: 'Poppins', sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  width: 99px;
+  height: 51px;
+
+}
+/* Sign up button */
+.button {
+  font-family: 'Raleway' sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: o;
+  background-color: #4e47ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 48px;
+  width: 132px;
+}
+/* Sign up button */
+.button {
+  font-family: 'Raleway' sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: o;
+  background-color: #4e47ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 48px;
+  width: 132px;
+}
+/* Sign up button */
+.button {
+  font-family: 'Raleway' sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: o;
+  background-color: #4e47ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 48px;
+  width: 132px;
+}
+/* Sign up button */
+.button2 {
+  font-family: 'Raleway' sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: o;
+  background-color: #4e47ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 48px;
+  width: 174px;
+}
+
+/* Center text content */
+.banner-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.banner-description {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  text-align: center;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+/* Focus button under text */
+.banner-content .button {
+  background-color: #4e47ff;
+}
