@@ -66,36 +66,6 @@ nav a h1 {
   width: 132px;
 }
 /* Sign up button */
-.button {
-  font-family: 'Raleway' sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: o;
-  background-color: #4e47ff;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 48px;
-  width: 132px;
-}
-/* Sign up button */
-.button {
-  font-family: 'Raleway' sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0;
-  background-color: #4e47ff;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  height: 48px;
-  width: 132px;
-}
-/* Sign up button */
 .button2 {
   font-family: 'Raleway' sans-serif;
   font-size: 16px;
@@ -191,4 +161,50 @@ nav a h1 {
   border-radius: 48px;
   opacity: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.stats-section {
+  padding: 80px 50px;
+  text-align: center;
+  background-color: rgba(78, 71, 255, 0.1);
+  gap: 10;
+  border-radius: 24px;
+  width: 1140px;
+  max-width: 100%;
+  height: 306;
+  margin: auto;
+}
+
+.stats-section h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-box h3 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+  margin: 0;
+
+}
+
+.stat-box p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
 }
