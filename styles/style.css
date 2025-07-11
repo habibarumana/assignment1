@@ -35,6 +35,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 30px 50px;
+  max-width: 1140px;
 }
 /* Logo style */
 nav a {
@@ -65,8 +66,15 @@ nav a h1 {
   cursor: pointer;
   height: 48px;
   width: 132px;
+  transition: background-color 0.3s, color 0.3s;
 }
-/* Sign up button */
+
+button:hover {
+  background-color: #ffc107;
+  color: black;
+  cursor: pointer;
+}
+/* Stay focused button */
 .button2 {
   font-family: 'Raleway' sans-serif;
   font-size: 16px;
@@ -90,6 +98,9 @@ nav a h1 {
     justify-content: center;
     align-items: center;
     text-align: center; 
+    width: 905px;
+    height: 237px;
+    margin: 0 auto;
 }
 
 .banner-description {
@@ -109,7 +120,7 @@ nav a h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff; 
+  background-color:  rgba(245, 248, 255); 
   padding: 40px 80px;
   border-radius: 12px;
   max-width: 1140px;
@@ -173,6 +184,7 @@ nav a h1 {
   max-width: 100%;
   height: 306;
   margin: auto;
+  margin-top: 70px;
 }
 
 .stats-section h2 {
@@ -313,7 +325,6 @@ nav a h1 {
   font-weight: bold;
   color: #111;
   line-height: 120%;
-  /*align-items: center;*/
 }
 
 .contact-form {
@@ -370,5 +381,56 @@ nav a h1 {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+.contact-form button:hover {
+  background-color: #ffc107;
+  color: black;
+  cursor: pointer;
+}
+.footer {
+  margin-top: 100px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  color: #4e47ff;
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #8987A1;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20;
+}
+
+.footer-nav{
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+  display: flex;
+}
+
+.footer-nav a {
+  color: #8987a1;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+  margin-right: 24px;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #0070f3;
 }
 
